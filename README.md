@@ -4,12 +4,12 @@ This can handle multiple animations from one sprite sheet.
 
 Pop the spritehandler.lua file into your project.
 
-Heres a few snippets
+Heres a few snippets for use in the main.lua fie.
 
 ```lua
-local SpriteHandler = require("lib.spritehandler")
+local SpriteHandler = require("spritehandler") -- Change to the directory of the spritehandler lua file.
 ```
-This requires the library.
+This adds the following functions below. Make sure to have the spritehandler.lua file somewhere in your project and is in the directory put above.
 
 ```lua
 function love.load()
