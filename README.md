@@ -19,6 +19,12 @@ function love.load()
     sprite1:setFPS(24)
     sprite1:setSizeMultiplier(2)
     sprite1:Play("animation")
+
+    -- You can also Pause, Resume and Stop the animation.
+    sprite1:Stop()
+    sprite1:Pause()
+    sprite!:Resume()
+    
 end
 ```
 
