@@ -6,8 +6,13 @@ Pop the spritehandler.lua file into your project.
 
 Heres a few snippets
 
-`local SpriteHandler = require("lib.spritehandler")`
-`function love.load()
+```lua
+local SpriteHandler = require("lib.spritehandler")
+```
+This requires the library.
+
+```lua
+function love.load()
     _G.sprite1 = SpriteHandler.new()
     sprite1:setImage(love.graphics.newImage("spritesheet"))
     sprite1:setXML(love.filesystem.read("spritesheetxml"))
@@ -15,6 +20,6 @@ Heres a few snippets
     sprite1:setSizeMultiplier(2)
     sprite1:Play("animation")
 end
-`
+```
 
 Now I need to try implementing Adobe Animate's texture atlases....
