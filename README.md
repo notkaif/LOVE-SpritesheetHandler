@@ -1,12 +1,12 @@
 # LOVE-SpritesheetHandler v2
 
-Sparrow v2 and (partially) Starling spritesheet handler for LÖVE 2D Game Engine.
+Sparrow v2 and (partially) Starling spritesheet handler for LÖVE 2D Game Engine. <br>
 This can handle multiple animations from one sprite sheet.
 
 ## What the heck is Sparrow v2 or Starling?
 
-Sparrow v2 is a spritesheet format that uses a image file and an XML file to store sprite data.
-Starling is basically the same thing.
+Sparrow v2 is a spritesheet format that uses a image file and an XML file to store sprite data.<br>
+Starling is basically the same thing.<br>
 It is used in the game Friday Night Funkin'
 
 A small example of a spritesheet's XML data:
