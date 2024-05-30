@@ -112,7 +112,7 @@ function SpriteHandler.new()
             local mouseX, mouseY = love.mouse.getPosition()
 
             self.checked = true
-            self.isMouseTouching = mouseX >= x and mouseX <= x + width and mouseY >= y and mouseY <= y + height
+            self.isMouseTouching = mouseX >= x - width/2 and mouseX <= x + width/2 and mouseY >= y - height/2 and mouseY <= y + height/2
 
             love.graphics.draw(self.image, quad, x - offsetX, y - offsetY, rotation, 1, 1, width/2, height/2)
         end
